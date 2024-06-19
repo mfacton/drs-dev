@@ -5923,16 +5923,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 69.85) (xy 195.58 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1214c527-abef-4763-a405-f5e4e79ddaa9")
-	)
-	(wire
-		(pts
 			(xy 137.16 36.83) (xy 137.16 34.29)
 		)
 		(stroke
@@ -6033,7 +6023,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 67.31) (xy 195.58 67.31)
+			(xy 181.61 69.85) (xy 195.58 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6783,7 +6773,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 52.07) (xy 195.58 52.07)
+			(xy 187.96 49.53) (xy 195.58 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6880,6 +6870,16 @@
 			(type default)
 		)
 		(uuid "b5621d93-dd6b-41f6-814b-d47e2199df83")
+	)
+	(wire
+		(pts
+			(xy 187.96 67.31) (xy 195.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59eb1d8-d800-4557-aab1-9a08390295ed")
 	)
 	(wire
 		(pts
@@ -7133,7 +7133,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 49.53) (xy 195.58 49.53)
+			(xy 181.61 52.07) (xy 195.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7193,7 +7193,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 49.53) (xy 158.75 49.53)
+			(xy 152.4 52.07) (xy 158.75 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7243,7 +7243,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 67.31) (xy 158.75 67.31)
+			(xy 152.4 69.85) (xy 158.75 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7416,19 +7416,8 @@
 		)
 		(uuid "111e5b97-151d-4b34-903b-2b2852f86763")
 	)
-	(label "PWM2"
-		(at 187.96 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19e83012-5cec-4a2e-a678-7e63d88c581f")
-	)
 	(label "PWM1"
-		(at 187.96 52.07 0)
+		(at 187.96 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7450,7 +7439,7 @@
 		(uuid "2f340455-0682-48fa-9a77-8c7f0c7e61dd")
 	)
 	(label "PWR1"
-		(at 187.96 49.53 0)
+		(at 187.96 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7492,6 +7481,17 @@
 			(justify left bottom)
 		)
 		(uuid "444330e0-35ad-4324-9ea3-9929abab71ce")
+	)
+	(label "PWM2"
+		(at 187.96 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44ff600f-c1d1-4193-b74e-23b49b122e1b")
 	)
 	(label "USB_D+"
 		(at 207.01 137.16 0)
@@ -7538,7 +7538,7 @@
 		(uuid "535eb5c6-bb6b-47c3-b984-6245c1332ac4")
 	)
 	(label "PWR2"
-		(at 187.96 67.31 0)
+		(at 187.96 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7571,7 +7571,7 @@
 		(uuid "65e309cc-8231-4bf0-a86e-8cf217981f2b")
 	)
 	(label "EN1"
-		(at 152.4 49.53 0)
+		(at 152.4 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7703,7 +7703,7 @@
 		(uuid "d2940437-5daf-4e59-bda3-23a0094b921f")
 	)
 	(label "EN2"
-		(at 152.4 67.31 0)
+		(at 152.4 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12279,7 +12279,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 46.99)
+		(at 158.75 49.53)
 		(size 22.86 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -12291,7 +12291,7 @@
 		)
 		(uuid "10a25ae4-64c1-4e54-ae93-7d4fe358c5e2")
 		(property "Sheetname" "Regulator1"
-			(at 158.75 46.2784 0)
+			(at 158.75 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,7 +12300,7 @@
 			)
 		)
 		(property "Sheetfile" "regulator.kicad_sch"
-			(at 158.75 52.6546 0)
+			(at 158.75 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12309,7 +12309,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 158.75 49.53 180)
+			(at 158.75 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,7 +12319,7 @@
 			(uuid "256cec82-2d3d-4e30-865b-99713bc34212")
 		)
 		(pin "PWR" output
-			(at 181.61 49.53 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12329,7 +12329,7 @@
 			(uuid "6df1fc42-90e8-4555-8864-1d2030c2b777")
 		)
 		(instances
-			(project "aero-dev"
+			(project "drs-dev"
 				(path "/66932111-2507-475e-a4ae-78de41b9a81d"
 					(page "2")
 				)
@@ -12337,7 +12337,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 64.77)
+		(at 158.75 67.31)
 		(size 22.86 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -12349,7 +12349,7 @@
 		)
 		(uuid "26596250-35b6-4880-94f6-cfe2d6040453")
 		(property "Sheetname" "Regulator2"
-			(at 158.75 64.0584 0)
+			(at 158.75 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12358,7 +12358,7 @@
 			)
 		)
 		(property "Sheetfile" "regulator.kicad_sch"
-			(at 158.75 70.4346 0)
+			(at 158.75 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12367,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 158.75 67.31 180)
+			(at 158.75 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12377,7 +12377,7 @@
 			(uuid "4b7edd19-a9a1-4e74-8d92-bfeacb35aa39")
 		)
 		(pin "PWR" output
-			(at 181.61 67.31 0)
+			(at 181.61 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +12387,7 @@
 			(uuid "5eb48133-cadf-48b8-a5d9-1b9eae28c2ea")
 		)
 		(instances
-			(project "aero-dev"
+			(project "drs-dev"
 				(path "/66932111-2507-475e-a4ae-78de41b9a81d"
 					(page "3")
 				)
